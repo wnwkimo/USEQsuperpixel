@@ -1,15 +1,13 @@
 #pragma once
 #include <afxtempl.h>
 #include <opencv\cv.h>
-#include <opencv\highgui.h>
 #include <opencv2\core\core.hpp>
+#include <opencv2\highgui\highgui.hpp>
 #include <opencv2\imgproc\imgproc.hpp>
 
-#include "ArrayList.h"
 #include <fstream>
 #include <iostream>
-
-
+#include "ArrayList.h"
 
 class USEQsuperpixel_TIP
 {

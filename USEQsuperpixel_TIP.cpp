@@ -1352,7 +1352,7 @@ bool USEQsuperpixel_TIP::Label2Color(cv::Mat &label,cv::Mat &output)
 	float start,stop;
 
 	//start = clock(); 
-	cv::vector<cv::Vec3b> color(max);
+	std::vector<cv::Vec3b> color(max);
 	cv::RNG rng=cv::theRNG();	
 	cv::Vec3b *colorPtr=color.data();
 	for(int i=0;i<max;i++)

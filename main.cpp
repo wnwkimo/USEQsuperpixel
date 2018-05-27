@@ -9,9 +9,9 @@ using namespace cv;
 int _tmain(int argc, _TCHAR* argv[])
 {
 
-	cv::Mat m_input =imread("testIMG.jpg"); //test image
+	cv::Mat m_input =imread("photo/333.png"); //test image
 	cv::Mat m_label,m_colorLabel,m_colorLabelandContour,m_contour = m_input.clone();
-	cv::medianBlur ( m_input, m_input, 3 );	
+	//cv::medianBlur ( m_input, m_input, 3 );
 	USEQsuperpixel_TIP sp;	
 	    //paremeter set if need
     	//sp.localDominateMag = 0.2f ; 

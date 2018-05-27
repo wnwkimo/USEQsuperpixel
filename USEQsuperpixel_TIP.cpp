@@ -1,7 +1,7 @@
 ﻿#include "stdafx.h"
 #include "USEQsuperpixel_TIP.h"
 
-123
+
 USEQsuperpixel_TIP::USEQsuperpixel_TIP(void)
 	: m_xNum(1), m_yNum(1), m_matData(nullptr), m_imageGrid(nullptr), localDominateMag(0.2f),refinementMag(0.2f),setQtzLv(3)
 {
